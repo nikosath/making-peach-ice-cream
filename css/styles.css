@@ -9,7 +9,8 @@ body {
 	font-size: 16px;
 	background: url(../img/paper.png) repeat-y;
 	width: 980px;
-	margin: 0;
+	margin: 0 auto;
+	background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,6 +34,9 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 38px;
 	border-bottom: 1px solid #000;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	padding-bottom: 16px;
+	margin-top: 20px;
+
 }
 
 /* Font Awesome - http://fontawesome.io/ */
@@ -47,8 +51,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Recipe */
 .recipe {
-	padding: 0.75rem;
+	width: 800px;
+	/*padding: 0.75rem;*/
+	padding: 0;
 	line-height: 25px;
+	margin: 0 auto;
 }
 
 .recipe-summary {
@@ -63,7 +70,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .recipe-author {
-	margin-top: 1.7em
+	margin-top: 1.7em;
+	display: inline;
+	/*font-weight: bold;*/
 }
 
 .recipe-notes {
