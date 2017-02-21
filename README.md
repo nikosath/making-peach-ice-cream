@@ -1,1 +1,2 @@
-# making-peach-ice-cream
+# Making Peach Ice Cream
+Udacity Front End NanoDegree Project
